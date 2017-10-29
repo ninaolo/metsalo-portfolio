@@ -2,7 +2,7 @@
   "name": "test-gh-pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ninaolo.github.io/test-gh-pages",
+  "homepage": "https://ninaolo.github.io/metsalo-portfolio",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
