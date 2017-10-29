@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Hind|Muli|Amatic+SC');
 
+@font-face {
+    font-family: 'walkway_blackregular';
+    src: url('assets/Walkway_Black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#navbar-wrapper {
+  margin-bottom: 50px;
+}
+
 #logo {
   height: 100px;
-  padding-right: 100px;
+  width: 100px;
+  margin-right: 100px;
 }
 
 .navbar-custom > .navbar-collapse > .navbar-nav > li > a {
-        font-family: 'Muli', sans-serif;
+        font-family: 'walkway_blackregular', sans-serif;
         text-transform: uppercase;
-        letter-spacing: 0.05em;
-        font-size: 14px;
-        font-weight: 400;
+        letter-spacing: 0.2em;
+        font-size: 12px;
         margin: 0 10px 0 10px;
         color: black;
 }
