@@ -1,0 +1,44 @@
+.img-container {
+    position: relative;
+    width: 50%;
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+img {
+	width:100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.text {
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.middle {
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.img-container:hover .image {
+  opacity: 0.8;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
