@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Hind|Muli|Amatic+SC');
+
+#logo {
+  height: 100px;
+  padding-right: 100px;
+}
+
+.navbar-custom > .navbar-collapse > .navbar-nav > li > a {
+        font-family: 'Muli', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 10px 0 10px;
+        color: black;
+}
+
+.navbar-custom > .navbar-collapse > .navbar-nav > li > a:hover {
+	color: #525354;
+}
